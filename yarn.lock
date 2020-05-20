@@ -3774,6 +3774,11 @@ make-dir@^3.0.2:
   dependencies:
     semver "^6.0.0"
 
+make-pgl-learn-0@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/make-pgl-learn-0/-/make-pgl-learn-0-0.0.0.tgz#efd93dde61c3c2be5b4148d6cdb06d2bf8e02bcc"
+  integrity sha512-FlEtHic1kbT17DOW/PjOvWLYxaXo0HSgNShHb7T1XCDNcvsKn9c3og7vXjMrc83cHlvVgkB01ZeS1DLG1RnEvg==
+
 map-cache@^0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/map-cache/-/map-cache-0.2.2.tgz#c32abd0bd6525d9b051645bb4f26ac5dc98a0dbf"
