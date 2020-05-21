@@ -96,6 +96,7 @@ We are keyword
           height: 100%;
           margin: 0;
           padding: 1rem;
+          font-size: 1rem;
           font-family: 'Roboto Mono', monospace;
           letter-spacing: 0.1rem;
         }
