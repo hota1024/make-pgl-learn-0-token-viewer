@@ -32,14 +32,14 @@ We are keyword
 
 `.trim()
   const [tokens, setTokens] = useState<Token[]>([])
-  const [source, setSource] = useState(initialSource)
+  const [source, setSource] = useState('')
   const [error, setError] = useState<LexerRuleAnalyzeError | undefined>()
 
   const updateToken = (source: string) => {
+    setSource(source)
     try {
       const tokens = lexer.analyze(source)
       setError(undefined)
-      setSource(source)
       setTokens(tokens)
     } catch (error) {
       if (error instanceof LexerRuleAnalyzeError) {

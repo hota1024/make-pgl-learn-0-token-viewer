@@ -62,7 +62,7 @@ export const TokenPreview: FC<TokenPreviewProps> = ({
       <pre className={className}>
         {tokens.map((token, key) => {
           if (token instanceof NewLineToken) {
-            return <br />
+            return <br key={key} />
           }
 
           const content = source.slice(token.pos.start, token.pos.end + 1)
