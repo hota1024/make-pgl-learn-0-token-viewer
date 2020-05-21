@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "clsx": "^1.1.0",
+    "make-pgl-learn-0": "0.0.10",
     "next": "9.4.1",
     "react": "16.13.1",
     "react-contenteditable": "^3.3.4",
